@@ -1,0 +1,81 @@
+# 1 Numeric Data Types
+# 1.1 used to store numeric values
+# Complex: It is represented by a complex class. It stores numbers with real and imaginary parts. For example: 2+3j
+
+a = 5
+b = 5.0
+c = 2 + 4j
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+# 2. Sequence Data Types
+# A sequence is an ordered collection of items, which can be of similar or different data types. 
+# Elements in a sequence can be accessed using indexing.
+
+# 2.1 Strings
+# Strings are used to store text data. A string is represented using the str class and can be created using single, double or triple quotes.
+
+s = 'Hello Python'
+print(s)
+print(type(s))
+
+# access string with index
+print(s[1])
+print(s[-1])
+
+# s[0] = "j" # This will show an error
+
+# 2.2 List
+# Lists are ordered and mutable collections used to store multiple items in a single variable. 
+# Elements in a list can be of different data types and are accessed using indexing.
+a = [1, 2, 3]
+print(a)
+
+b = ["Hello", "python", "developer", 4, 5]
+print(b[3])
+print(b[-3])
+
+# 2.3 Tuple
+# Tuples are ordered and immutable collections used to store multiple items in a single variable. 
+# Elements in a tuple can be of different data types and are accessed using indexing.
+t1 = (1, 2, 3)
+# t1 = (1) This consider as a int
+# t1 = (1,) This consider as a tuple because of the comma
+
+print(type(t1))
+
+t2 = ('Hello', 'Python', 'developer', 4, 5)
+print(t2[1])
+print(t2[-1])
+
+# Boolean Data Type
+# Boolean data type represents one of two values: True or False. 
+# It is mainly used in conditions and comparisons and is represented by the bool class.
+print(type(True))
+print(type(False))
+
+if 1:
+    print("1 is true")
+else:
+    print("1 is false")
+
+# 4 Set Data Type
+# Sets are unordered and mutable collections used to store unique elements. 
+# Since sets are unordered, elements cannot be accessed using indexing. 
+# Elements are usually accessed by iterating through the set using a loop.
+s1 = {"a", "a", "b", "c", "b"}
+print(s1)
+
+s2 = {"Hello", "Pyhton", "Hello"}
+for i in s2:
+    print(i)
+
+# 5 Dictionary Data Type
+# Dictionaries are used to store data in key:value pairs. 
+# Each key in a dictionary must be unique and values are accessed using their keys with square brackets [] or get() method.
+# Note: Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly. 
+d = {1: 'Hi', 2: 'developer', 3: 'Python'}
+print(d[1])    
+print(d.get(2))
