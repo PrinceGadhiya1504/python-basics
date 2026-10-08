@@ -1,0 +1,18 @@
+Employee Details
+Name: Prince
+Age: 23
+Department: IT
+Salary: 40000
+------------------------
+Employee Details
+Name: Mayur
+Age: 26
+Department: Purchase
+Salary: 25000
+------------------------
+Employee Details
+Name: HArshil
+Age: 28
+Department: Networking
+Salary: 35000
+------------------------
