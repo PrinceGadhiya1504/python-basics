@@ -1,0 +1,3 @@
+Name: Amit
+Marks: 85
+Course: Python

@@ -1,3 +1,16 @@
+print('\n-----Space formating-----')
+name = "Prince"
+# print() mein extra space kahan se aati hai?
+# Python print() ka default separator sep=" " hota hai. Yaani multiple arguments ke beech Python apni taraf se ek space add karta hai.
+# Extra space manage karne ke 3 methods
+# Method 1 — F-string (recommended)
+print(f"Name: {name}")
+# Method 2 - sep=""
+print("Name: ", name, sep="")
+print("Name: ", name) # Without sep="", it will add extra space
+# Method 3 — + operator
+print("Name: " + name)
+
 # For the input will use input() function
 # For the output will use print() function
 
@@ -13,3 +26,4 @@ print(type(age))
 # We can change the user input from default string type to any other type (int, float, etc) by typecasting.
 num1 = int(input("Enter a number: "))
 print(num1, type(num1))
+

@@ -1,6 +1,18 @@
 # You can return a range of characters by using the slice syntax.
 # Specify the start index and the end index, separated by a colon, to return a part of the string.
 
+# Slicing ka general format hota hai:
+# string[start:stop:step]
+    # start: kahan se shuru karna hai.
+    # stop: kahan tak jaana hai; is index ko include nahi kiya jata.
+    # step: kitne steps se aage badhna hai.
+language = "Python"
+print(language[::-1])
+    # start blank hai: Python default starting position decide karta hai.
+    # stop blank hai: Python default ending position decide karta hai.
+    # step = -1: string ko ek-ek character karke right se left read karta hai.
+
+
 #Get the characters from position 2 to position 5 (not included):
 b = "Hello, World!"
 print(b[2:5])
