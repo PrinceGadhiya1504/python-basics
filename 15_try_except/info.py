@@ -12,7 +12,7 @@ except:
     print("An error occurred")
 
 # Many Exceptions
-# We can define my exception block as we want, e.g. if we want to excute a special blobk of code for a special kind of error:
+# We can define as many exception blocks as we want, e.g. if we want to execute a special block of code for a special kind of error:
 
 # Print one message if the try block raises a NameError and another for other errors
 try:
@@ -45,13 +45,19 @@ finally:
 # As a Python developer we can choose to throw an exception if a condition occurs
 # To throw (or raise) an exception, use the raise keyword.
 
-# Raise an error and stop the program if x is lower than 0
-x = -1
-if x < 0:
-  raise Exception("Sorry, no numbers below zero")
+# Raise an error if x is lower than 0
+try:
+    x = -1
+    if x < 0:
+        raise Exception("Sorry, no numbers below zero")
+except Exception as e:
+    print("Caught exception:", e)
 
 # Raise a TypeError if the type of the variable is wrong:
-x = "hello"
-if not type(x) is int:
-  raise TypeError("Only integers are allowed")
+try:
+    x = "hello"
+    if not type(x) is int:
+        raise TypeError("Only integers are allowed")
+except TypeError as e:
+    print("Caught TypeError:", e)
     

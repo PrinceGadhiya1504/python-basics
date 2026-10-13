@@ -45,14 +45,15 @@ s2.show()
 class Person:
     def __init__(self, name, age):
         self.name = name
+        self.age = age
     
     def printname(self):
         return "Hello " + self.name
     
-    def welcom(self):
+    def welcome(self):
         message = self.printname()
         print(message + ", Welcome to the World of Python Object Oriented Programming")
 
 p1 = Person("Prince", 23)
-p1.welcom()
+p1.welcome()
         

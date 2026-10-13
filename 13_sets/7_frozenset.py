@@ -62,7 +62,7 @@ print(fs)
 print(cp)
 
 # 2. difference()
-# Sortcut -
+# Shortcut -
 # difference() returns the elements that are present in the first frozenset but NOT present in the second.
 set1 = frozenset({1, 2, 3}) 
 set2 = frozenset({3, 4, 5})
@@ -70,7 +70,7 @@ set2 = frozenset({3, 4, 5})
 print(set1.difference(set2))
 
 # 3. intersection()
-# Sortcut &
+# Shortcut &
 # Returns the values that are common between both frozensets.
 set1 = frozenset({1, 2, 3})
 set2 = frozenset({3, 4, 5})
@@ -84,7 +84,7 @@ set2 = frozenset({3, 4, 5})
 print(set1.isdisjoint(set2))
 
 # 5. issubset()
-# Sortcut 	<= / <
+# Shortcut 	<= / <
 # Returns True if all elements in one frozenset are present in another
 a = frozenset({1, 2})
 b = frozenset({1, 2, 3})
@@ -93,7 +93,7 @@ print(a <= b)
 print(a < b)
 
 # 6. issuperset()
-# Sortcut 	>= / >
+# Shortcut 	>= / >
 # Returns True if all elements of another frozenset are present in the current frozenset.
 a = frozenset({1, 2, 3})
 b = frozenset({1, 2})
@@ -102,7 +102,7 @@ print(a >= b)
 print(a > b)
 
 # 7. symmetric_difference()
-# Sortcut ^
+# Shortcut ^
 # Returns elements that are present in either frozenset, but NOT in both.
 # In simple words: Remove the common values and keep the remaining values.
 set1 = frozenset({1, 2, 3})
@@ -111,7 +111,7 @@ print(set1 ^ set2)
 print(set1.symmetric_difference(set2))
 
 # 8. union()
-# Sortcut |
+# Shortcut |
 # Returns a new frozenset with all items from both sets
 # Duplicate values are automatically removed.
 set1 = frozenset({1, 2, 3})

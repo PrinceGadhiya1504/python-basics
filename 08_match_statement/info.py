@@ -52,7 +52,7 @@ match day:
     print("I love weekends!")
 
 # If Statements as Guards
-# ou can add if statements in the case evaluation as an extra condition-check
+# You can add if statements in the case evaluation as an extra condition-check
 month = 5
 day = 4
 match day:

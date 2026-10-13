@@ -21,7 +21,7 @@ class Student(Person):
 # Note: Use the pass keyword when we don't want to add any other properties or methods to the class.
 
 # Now the Student class has the same properties and methods as the Person class.
-child = Person("Harshil", "Patel")
+child = Student("Harshil", "Patel")
 child.printname()
 
 # Add the __init__() Function

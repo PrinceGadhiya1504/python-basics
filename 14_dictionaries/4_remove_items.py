@@ -26,7 +26,7 @@ thisdict = {
   "year": 1964
 }
 del thisdict["model"]
-# print(thisdict) # this will cause an error because "thisdict" no longer exists.
+print(thisdict)
 
 # The clear() method empties the dictionary:
 thisdict = {

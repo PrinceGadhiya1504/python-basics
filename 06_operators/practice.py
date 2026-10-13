@@ -206,11 +206,11 @@ print("Bitwise ~a: ", ~a)
 # 15 = 00001111
 # << 2
 # 00111100 → 60
-print("Bitwise a << b: ", a << b)
+print("Bitwise a << 2: ", a << 2)
 
 #Right Shift
 # Right Shift - Bits ko right side shift karta hai
 # 15 = 00001111
 # >> 2
 # 00000011 → 3
-print("Bitwise a >> b: ", a >> b)
+print("Bitwise a >> 2: ", a >> 2)

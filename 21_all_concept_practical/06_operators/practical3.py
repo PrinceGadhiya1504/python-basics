@@ -18,6 +18,6 @@ has_license = True
 valid_age = age >= 18
 
 print(f"Age is 18 or above: {valid_age}")
-print(f"Car drive: {valid_age and has_license}")
+print(f"Can drive: {valid_age and has_license}")
 print(f"Age or license: {valid_age or has_license}")
 print(f"License not available: {not has_license}")

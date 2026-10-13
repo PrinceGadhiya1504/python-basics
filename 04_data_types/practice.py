@@ -68,7 +68,7 @@ else:
 s1 = {"a", "a", "b", "c", "b"}
 print(s1)
 
-s2 = {"Hello", "Pyhton", "Hello"}
+s2 = {"Hello", "Python", "Hello"}
 for i in s2:
     print(i)
 

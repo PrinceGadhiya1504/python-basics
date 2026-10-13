@@ -285,7 +285,7 @@ except StopIteration:
 # No more values
 
 # 22. SyntaxError
-# yntaxError occurs when Python code does not follow Pthon's syntax rules.
+# SyntaxError occurs when Python code does not follow Python's syntax rules.
 # Example of incorrect code:
 # if True
 #     print("Hello")

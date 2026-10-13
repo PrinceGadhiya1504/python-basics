@@ -1,6 +1,5 @@
 # Join Two Tuples
 # To join two or more tuples you can use the + operator:
-import numbers
 tuple1 = ("a", "b" , "c")
 tuple2 = (1, 2, 3)
 

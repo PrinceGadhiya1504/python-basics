@@ -48,7 +48,7 @@ x = bool(5)
 
 
 
-# Differance List, Tuple, Dictionary, Set
+# Difference List, Tuple, Dictionary, Set
 
 # Feature 			        List	                    Tuple	                    Set	                        Dictionary
 # Syntax			        Square brackets []	        Parentheses ()	            Curly braces {}	            Curly braces with pairs {k: v}

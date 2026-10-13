@@ -26,7 +26,8 @@ thisset = {"apple", "banana", "cherry"}
 print(len(thisset))
 
 # Set Items - Data Types
-# Set items can be of any data type
+# Set items can be of immutable data types like string, number and tuple
+# Not list, dict and set because they are mutable
 set1 = {"apple", "banana", "cherry"}
 set2 = {1, 5, 7, 9, 3}
 set3 = {True, False, False}

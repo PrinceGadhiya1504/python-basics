@@ -1,4 +1,4 @@
-print('\n-----Space formating-----')
+print('\n-----Space formatting-----')
 name = "Prince"
 # print() mein extra space kahan se aati hai?
 # Python print() ka default separator sep=" " hota hai. Yaani multiple arguments ke beech Python apni taraf se ek space add karta hai.
@@ -11,8 +11,8 @@ print("Name: ", name) # Without sep="", it will add extra space
 # Method 3 — + operator
 print("Name: " + name)
 
-# For the input will use input() function
-# For the output will use print() function
+# For input we use input() function
+# For output we use print() function
 
 name = input("What is your name? ")
 age = (input("What is your age? "))

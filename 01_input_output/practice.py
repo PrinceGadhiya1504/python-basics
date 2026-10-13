@@ -26,4 +26,4 @@ print(x, y)
 # output
 #     10 20
 
-# If we try to enter only single value then got the erro => ValueError: not enough values to unpack (expected 2, got 1)
+# If we try to enter only single value then got the error => ValueError: not enough values to unpack (expected 2, got 1)

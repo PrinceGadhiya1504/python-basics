@@ -14,7 +14,7 @@ password = "python123"
 
 if username == "Prince":
     if password == "python123":
-        print("Login successfull")
+        print("Login successful")
     else:
         print("Invalid password")
 else:

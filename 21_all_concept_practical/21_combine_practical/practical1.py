@@ -48,7 +48,7 @@ def get_grade(students):
 for s in students:
     try:
         s['grade'] = get_grade(s)
-    except TypeError as e:
+    except (TypeError, ValueError) as e:
         s['grade'] = "Invalid"
 
 # 3. Loop se har student ka naam, marks aur grade print kare.

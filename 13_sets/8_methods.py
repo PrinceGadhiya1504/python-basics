@@ -17,7 +17,7 @@ print(set2)
 print(set1)
 
 # 4. difference()
-# Sortcut -
+# Shortcut -
 # Returns a new set with the difference between two sets
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
@@ -38,7 +38,7 @@ set1.discard(2)
 print(set1)
 
 # 7. intersection()
-# Sortcut &
+# Shortcut &
 # Returns a new set with the intersection of two sets
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
@@ -59,7 +59,7 @@ set2 = {3, 4, 5}
 print(set1.isdisjoint(set2))
 
 # 10. issubset()
-# Sortcut <= and <
+# Shortcut <= and <
 # Returns True if all elements in one set are present in another
 set1 = {1, 2, 3}
 set2 = {1, 2, 3, 4}
@@ -85,7 +85,7 @@ set1.remove(2)
 print(set1)
 
 # 14. symmetric_difference()
-# Sortcut ^ 
+# Shortcut ^ 
 # Returns a new set with the symmetric difference of two sets
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}

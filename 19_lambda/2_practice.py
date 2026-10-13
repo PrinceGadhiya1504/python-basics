@@ -1,6 +1,5 @@
 # Practice 1
 # Create a lambda function that takes a number and returns its square.
-from xdg import Exceptions
 square = lambda x : x * x
 print(square(5))
 

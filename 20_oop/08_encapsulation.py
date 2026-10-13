@@ -65,7 +65,7 @@ class Student:
         self.__grade = 0
 
     def set_grade(self, grade):
-        if 0 <= self.__grade <= 100:
+        if 0 <= grade <= 100:
             self.__grade = grade
         else:
             print("Grade must be between 0 and 100")

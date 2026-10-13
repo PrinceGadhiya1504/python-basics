@@ -66,12 +66,7 @@ for product in products:
 
 
 # 2. Available Products
-available_products = list(
-    filter(
-        lambda p: p["status"] == "Available",
-        products
-    )
-)
+available_products = list(filter(lambda p: p["stock"] > 0, products))
 
 print("\nAvailable Products:")
 
@@ -84,15 +79,9 @@ for product in available_products:
 
 
 # 3. Sort valid products by price (descending)
-valid_products = list(
-    filter(lambda p: p["status"] != "Invalid", products)
-)
+valid_products = list(filter(lambda p: p["status"] != "Invalid", products))
 
-sorted_products = sorted(
-    valid_products,
-    key=lambda p: p["price"],
-    reverse=True
-)
+sorted_products = sorted(valid_products,key=lambda p: p["price"], reverse=True)
 
 print("\nSorted Products by Price:")
 

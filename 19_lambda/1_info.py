@@ -10,12 +10,12 @@
 square = lambda x : x * x
 print(square(5)) # 25
 
-# 3. Lambda VS Normal Functoin
+# 3. Lambda VS Normal Function
 # Normal Function
 def add(x, y):
     return x + y
 
-# lambda Functoin
+# lambda Function
 add = lambda x, y : x + y
 
 # Both perform the same operation.
@@ -26,8 +26,8 @@ print(add(10, 20)) # 30
 hello = lambda: "Hello Python"
 print(hello())
 
-# 5. lambda with one arguments
-double = lambda x : x * 5
+# 5. lambda with one argument
+double = lambda x : x * 2
 print(double(2)) 
 
 # 6. lambda with multiple arguments 

@@ -162,7 +162,7 @@ print(hasattr(iterator, "__next__")) # True (Iterator has __next__)
 # __next__() # Returns the next value. Raises StopIteration when no more values.
 
 # Custom Iterator
-# Custom Iterator# We can create our own Iterator using a class.
+# We can create our own Iterator using a class.
 print("---Custom Iterator---")
 class Mynumbers:
     def __iter__(self):
@@ -185,12 +185,15 @@ for number in Mynumbers():
     print(number)
 # The for loop automatically handles StopIteration.
 
-# Manualy using next()
-print("---Manualy using next()---")
+# Manually using next()
+print("---Manually using next()---")
 print(next(iterator)) # 1
 print(next(iterator)) # 2
 print(next(iterator)) # 3
 print(next(iterator)) # 4
 print(next(iterator)) # 5
-print(next(iterator)) # StopIteration
+try:
+    print(next(iterator)) # StopIteration
+except StopIteration:
+    print("StopIteration: No more values")
 

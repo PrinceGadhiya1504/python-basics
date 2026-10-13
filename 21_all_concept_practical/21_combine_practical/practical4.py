@@ -87,5 +87,5 @@ expense_messages = list(map(lambda ex: f"{ex['category']}: {ex['amount']}", expe
 print(expense_messages)
 
 print("\nTotal Expenses:")
-total_expenses = sum(ex['amount'] for ex in expenses)
+total_expenses = sum(ex['amount'] for ex in expenses if ex['status'] != "Invalid")
 print(total_expenses)
